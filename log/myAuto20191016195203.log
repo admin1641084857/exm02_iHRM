@@ -1,0 +1,2 @@
+2019-10-16 19:52:03,191 INFO [root] [TestIHRMEmploye.py(test_emp_delete:57)] - must be str, not NoneType
+2019-10-16 19:52:03,191 INFO [root] [TestIHRMEmploye.py(test_emp_delete:57)] - must be str, not NoneType
