@@ -16,5 +16,8 @@ suite.addTest(TestEmployee("test_emp_get"))
 suite.addTest(TestEmployee("test_emp_delete"))
 
 # 执行套件对象
-runner = unittest.TextTestRunner()
-runner.run(suite)
+# runner = unittest.TextTestRunner()
+# runner.run(suite)
+with open(app.PRO_PATH + "/report/repter.html", "wb") as f:
+    runner = HTMLTestRunner(f, title="hello", description="v1.0")
+    runner.run(suite)
