@@ -3,9 +3,9 @@
 """
 # 导包
 import unittest
-import unittest
-
 from HTMLTestRunner import HTMLTestRunner
+
+import app
 
 from case.TestIHRMEmploye import TestEmployee
 from case.TestIHRMUser import TestUser
